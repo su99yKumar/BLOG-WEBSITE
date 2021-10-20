@@ -1,0 +1,139 @@
+body{
+    background: rgb(255, 255, 255);
+}
+        body {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        a,
+        ul {
+            
+            margin:0%;
+            padding: 0%;
+            text-decoration: none;
+            color: #222;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        nav li {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        nav h1 {
+            font-size: 3em;
+        }
+
+        nav p,
+        nav a {
+            color: #777;
+            font-weight: 300;
+        }
+
+        footer {
+            color: #777;
+            text-align: center;
+            margin: 80px auto 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+
+        .coantainer {
+            margin-left: 20px;
+        }
+
+        /* index styles */
+.blogs a{
+    display: block;
+    margin: 20px 0;
+    padding-left: 30px;
+    border-left: 6px solide crimson;
+}
+.blogs a:hover h3{
+    color: rgb(17, 116, 30);
+}
+        /* details styles */
+        .details{
+
+            position: absolute;
+        }
+        .delete{
+            display: flex;
+            justify-content: flex-end;
+            width:fit-content ;
+            border: 2px solid red;
+            position: relative;
+            padding: 3px;
+            color: red;
+      
+        }
+        .delete:hover{
+            cursor: pointer;
+            box-shadow: 3px 3px 3px 3px red;
+            color: rgb(0, 38, 255);
+        }
+        /* create styles */
+        .create-blog form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .create-blog input,
+        .create-blog textarea {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 8px;
+        }
+
+        .create-blog label {
+            display: block;
+        }
+
+        textarea {
+            height: 120px;
+        }
+
+        .create-blog button {
+            margin-top: 20px;
+            background: crimson;
+            color: aliceblue;
+            padding: 6px;
+            border: 0;
+            font-size: 1.2em;
+            cursor: pointer;
+
+        }
+
+        hr {
+            color: #000;
+            height: 1px;
+            background-color: #000;
+        }
+
+        .this{
+            box-sizing: border-box;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        .content-body{
+            margin-bottom: 8%;
+        }
